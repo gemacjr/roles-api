@@ -1,0 +1,16 @@
+{
+    "employees": [
+      {
+        "email": "nancy.d@ch.com",
+        "role": "USER"
+      },
+      {
+        "email": "steve.p@ch.com",
+        "role": "ADMIN"
+      },
+      {
+        "email": "ann.s@@ch.com",
+        "role": "ADMIN_USER"
+      }
+    ]
+  }
