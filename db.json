@@ -1,16 +1,319 @@
 {
-    "employees": [
+    "users": [
       {
-        "email": "nancy.d@ch.com",
-        "role": "USER"
+        "orderUser": true,
+        "firstName": "Automation Web Services",
+        "lastName": "Acute Test",
+        "userSettings": {
+            "memberGroups": [
+                "cn=G-EXT-GA-PHARMACEUTICAL_DISTRIBUTION__ORDER_EXPRESS_REPORTING__ORDER_EXPRESS_REPORTING__STANDARD,ou=groups,ou=External,dc=cardinalhealth,dc=com",
+                "cn=G-EXT-GA-PHARMACEUTICAL_DISTRIBUTION__ACUTE_CARE__ACUTE_CARE_ORDERING__ADMIN,ou=groups,ou=External,dc=cardinalhealth,dc=com"
+            ]
+        },
+        "mobileNumber": "",
+        "id": "auto_ws_acute",
+        "shipTos": [
+            {
+                "marketingPrograms": [
+                    {
+                        "code": 78,
+                        "endDate": "9999-12-31",
+                        "description": "MOBILE SOLUTIONS DEVICES",
+                        "effectiveDate": "2012-06-14"
+                    },
+                    {
+                        "code": 92,
+                        "endDate": "9999-12-31",
+                        "description": "ERECEIVER",
+                        "effectiveDate": "2013-02-14"
+                    }
+                ],
+                "name": "A WHEELING TEST",
+                "alias": "",
+                "id": "8-106077",
+                "customerNumber": 106077,
+                "distributionCenter": 8
+            },
+            {
+                "marketingPrograms": [
+                    {
+                        "code": 328,
+                        "endDate": "9999-12-31",
+                        "description": "FDS POS SOFTWARE MAINTENANCE",
+                        "effectiveDate": "2015-01-27"
+                    },
+                    {
+                        "code": 329,
+                        "endDate": "9999-12-31",
+                        "description": "NHIN DRUG FILE SERVICES",
+                        "effectiveDate": "2015-01-27"
+                    }
+                ],
+                "name": "B SYRACUSE TEST",
+                "alias": "",
+                "id": "3-629155",
+                "customerNumber": 629155,
+                "distributionCenter": 3
+            },
+            {
+                "name": "B SYRACUSE ASSIST TEST",
+                "alias": "",
+                "id": "3-631775",
+                "customerNumber": 631775,
+                "distributionCenter": 3
+            },
+            {
+                "name": "E SYRACUSE ASSIST TEST",
+                "alias": "",
+                "id": "3-631776",
+                "customerNumber": 631776,
+                "distributionCenter": 3
+            },
+            {
+                "marketingPrograms": [
+                    {
+                        "code": 92,
+                        "endDate": "9999-12-31",
+                        "description": "ERECEIVER",
+                        "effectiveDate": "2019-11-21"
+                    },
+                    {
+                        "code": 135,
+                        "endDate": "9999-12-31",
+                        "description": "CSOS",
+                        "effectiveDate": "2016-02-04"
+                    },
+                    {
+                        "code": 747,
+                        "endDate": "9999-12-31",
+                        "description": "CSOS CLOUD",
+                        "effectiveDate": "2019-05-21"
+                    },
+                    {
+                        "code": 999,
+                        "endDate": "9999-12-31",
+                        "description": "TESTING",
+                        "effectiveDate": "2015-09-11"
+                    }
+                ],
+                "name": "E SYRACUSE TEST",
+                "alias": "",
+                "id": "3-629156",
+                "customerNumber": 629156,
+                "distributionCenter": 3
+            }
+        ],
+        "email": "greg.hardy@cardinalhealth.com"
+    },
+    {
+      "orderUser": true,
+      "firstName": "Automation Web Services",
+      "lastName": "Acute Test",
+      "userSettings": {
+          "memberGroups": [
+              "cn=G-EXT-GA-PHARMACEUTICAL_DISTRIBUTION__ORDER_EXPRESS_REPORTING__ORDER_EXPRESS_REPORTING__STANDARD,ou=groups,ou=External,dc=cardinalhealth,dc=com",
+              "cn=G-EXT-GA-PHARMACEUTICAL_DISTRIBUTION__ACUTE_CARE__ACUTE_CARE_ORDERING__ADMIN,ou=groups,ou=External,dc=cardinalhealth,dc=com"
+          ]
       },
-      {
-        "email": "steve.p@ch.com",
-        "role": "ADMIN"
-      },
-      {
-        "email": "ann.s@@ch.com",
-        "role": "ADMIN_USER"
-      }
+      "mobileNumber": "",
+      "id": "auto_ws_acute",
+      "shipTos": [
+          {
+              "marketingPrograms": [
+                  {
+                      "code": 78,
+                      "endDate": "9999-12-31",
+                      "description": "MOBILE SOLUTIONS DEVICES",
+                      "effectiveDate": "2012-06-14"
+                  },
+                  {
+                      "code": 92,
+                      "endDate": "9999-12-31",
+                      "description": "ERECEIVER",
+                      "effectiveDate": "2013-02-14"
+                  }
+              ],
+              "name": "A WHEELING TEST",
+              "alias": "",
+              "id": "8-106077",
+              "customerNumber": 106077,
+              "distributionCenter": 8
+          },
+          {
+              "marketingPrograms": [
+                  {
+                      "code": 328,
+                      "endDate": "9999-12-31",
+                      "description": "FDS POS SOFTWARE MAINTENANCE",
+                      "effectiveDate": "2015-01-27"
+                  },
+                  {
+                      "code": 329,
+                      "endDate": "9999-12-31",
+                      "description": "NHIN DRUG FILE SERVICES",
+                      "effectiveDate": "2015-01-27"
+                  }
+              ],
+              "name": "B SYRACUSE TEST",
+              "alias": "",
+              "id": "3-629155",
+              "customerNumber": 629155,
+              "distributionCenter": 3
+          },
+          {
+              "name": "B SYRACUSE ASSIST TEST",
+              "alias": "",
+              "id": "3-631775",
+              "customerNumber": 631775,
+              "distributionCenter": 3
+          },
+          {
+              "name": "E SYRACUSE ASSIST TEST",
+              "alias": "",
+              "id": "3-631776",
+              "customerNumber": 631776,
+              "distributionCenter": 3
+          },
+          {
+              "marketingPrograms": [
+                  {
+                      "code": 92,
+                      "endDate": "9999-12-31",
+                      "description": "ERECEIVER",
+                      "effectiveDate": "2019-11-21"
+                  },
+                  {
+                      "code": 135,
+                      "endDate": "9999-12-31",
+                      "description": "CSOS",
+                      "effectiveDate": "2016-02-04"
+                  },
+                  {
+                      "code": 747,
+                      "endDate": "9999-12-31",
+                      "description": "CSOS CLOUD",
+                      "effectiveDate": "2019-05-21"
+                  },
+                  {
+                      "code": 999,
+                      "endDate": "9999-12-31",
+                      "description": "TESTING",
+                      "effectiveDate": "2015-09-11"
+                  }
+              ],
+              "name": "E SYRACUSE TEST",
+              "alias": "",
+              "id": "3-629156",
+              "customerNumber": 629156,
+              "distributionCenter": 3
+          }
+      ],
+      "email": "bob.hardy@cardinalhealth.com"
+  },
+  {
+    "orderUser": true,
+    "firstName": "Automation Web Services",
+    "lastName": "Acute Test",
+    "userSettings": {
+        "memberGroups": [
+            "cn=G-EXT-GA-PHARMACEUTICAL_DISTRIBUTION__ORDER_EXPRESS_REPORTING__ORDER_EXPRESS_REPORTING__STANDARD,ou=groups,ou=External,dc=cardinalhealth,dc=com",
+            "cn=G-EXT-GA-PHARMACEUTICAL_DISTRIBUTION__ACUTE_CARE__ACUTE_CARE_ORDERING__ADMIN,ou=groups,ou=External,dc=cardinalhealth,dc=com"
+        ]
+    },
+    "mobileNumber": "",
+    "id": "auto_ws_acute",
+    "shipTos": [
+        {
+            "marketingPrograms": [
+                {
+                    "code": 78,
+                    "endDate": "9999-12-31",
+                    "description": "MOBILE SOLUTIONS DEVICES",
+                    "effectiveDate": "2012-06-14"
+                },
+                {
+                    "code": 92,
+                    "endDate": "9999-12-31",
+                    "description": "ERECEIVER",
+                    "effectiveDate": "2013-02-14"
+                }
+            ],
+            "name": "A WHEELING TEST",
+            "alias": "",
+            "id": "8-106077",
+            "customerNumber": 106077,
+            "distributionCenter": 8
+        },
+        {
+            "marketingPrograms": [
+                {
+                    "code": 328,
+                    "endDate": "9999-12-31",
+                    "description": "FDS POS SOFTWARE MAINTENANCE",
+                    "effectiveDate": "2015-01-27"
+                },
+                {
+                    "code": 329,
+                    "endDate": "9999-12-31",
+                    "description": "NHIN DRUG FILE SERVICES",
+                    "effectiveDate": "2015-01-27"
+                }
+            ],
+            "name": "B SYRACUSE TEST",
+            "alias": "",
+            "id": "3-629155",
+            "customerNumber": 629155,
+            "distributionCenter": 3
+        },
+        {
+            "name": "B SYRACUSE ASSIST TEST",
+            "alias": "",
+            "id": "3-631775",
+            "customerNumber": 631775,
+            "distributionCenter": 3
+        },
+        {
+            "name": "E SYRACUSE ASSIST TEST",
+            "alias": "",
+            "id": "3-631776",
+            "customerNumber": 631776,
+            "distributionCenter": 3
+        },
+        {
+            "marketingPrograms": [
+                {
+                    "code": 92,
+                    "endDate": "9999-12-31",
+                    "description": "ERECEIVER",
+                    "effectiveDate": "2019-11-21"
+                },
+                {
+                    "code": 135,
+                    "endDate": "9999-12-31",
+                    "description": "CSOS",
+                    "effectiveDate": "2016-02-04"
+                },
+                {
+                    "code": 747,
+                    "endDate": "9999-12-31",
+                    "description": "CSOS CLOUD",
+                    "effectiveDate": "2019-05-21"
+                },
+                {
+                    "code": 999,
+                    "endDate": "9999-12-31",
+                    "description": "TESTING",
+                    "effectiveDate": "2015-09-11"
+                }
+            ],
+            "name": "E SYRACUSE TEST",
+            "alias": "",
+            "id": "3-629156",
+            "customerNumber": 629156,
+            "distributionCenter": 3
+        }
+    ],
+    "email": "nancy.drew@cardinalhealth.com"
+}
     ]
   }
